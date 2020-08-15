@@ -16,6 +16,7 @@ add_message_files(
   latlon.msg
   path.msg
   windSensor.msg
+  Sensors.msg
   globalWind.msg
   addBoat.msg
   actuation_angle.msg
