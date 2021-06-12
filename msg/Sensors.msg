@@ -11,8 +11,8 @@ float32 wind_sensor_3_speed_knots
 int32   wind_sensor_3_angle_degrees
 
 string  gps_can_timestamp_utc
-float32 gps_can_latitude_degrees
-float32 gps_can_longitude_degrees
+float32 gps_can_latitude_degreeMinutes
+float32 gps_can_longitude_degreeMinutes
 float32 gps_can_groundspeed_knots
 float32 gps_can_track_made_good_degrees
 float32 gps_can_true_heading_degrees
@@ -20,8 +20,8 @@ float32 gps_can_magnetic_variation_degrees
 bool    gps_can_state
 
 string  gps_ais_timestamp_utc
-float32 gps_ais_latitude_degrees
-float32 gps_ais_longitude_degrees
+float32 gps_ais_latitude_degreeMinutes
+float32 gps_ais_longitude_degreeMinutes
 float32 gps_ais_groundspeed_knots
 float32 gps_ais_track_made_good_degrees
 float32 gps_ais_true_heading_degrees
